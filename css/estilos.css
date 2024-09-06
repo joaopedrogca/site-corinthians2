@@ -1,5 +1,8 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway';
 
+a{
+    text-decoration: none;
+}
 body{
     margin: 0px;
     font-family: Raleway;
@@ -10,17 +13,27 @@ footer{
     justify-content: center;
     background-color: black;
     height: 320px;
+    bottom: 0;
+    width: 100%;
+    text-align: justify;
 }
 .f1{
     display: flex;
     flex-direction: column;
-    margin:3%
+    margin:3%;
+    
 }
+
 .img1{
     width: 200px;
 }
+.img-inicial{
+    width: 100%;
+    height: 50%;
+}
 .content
 {
+    margin-top: 2%;
     text-align: justify;
     margin-left: 25%;
     margin-right: 25%;
@@ -37,8 +50,7 @@ footer{
     display: flex;
     flex-direction: row;
     background-color: rgb(28, 27, 29);
-    margin-bottom: 2%;
-    padding: 1%;
+    
 }
 .div-1 {
    margin-bottom: 5%;
@@ -52,9 +64,19 @@ footer{
 .title-not{
     text-align: center;
     margin-bottom: 5%;
+    font-size: 40px;
 }
 .titlep {
     color: white;
+    text-align: center;
+    font-size: 45px;
+}
+.titlep1 {
+    color: white;
+    text-align: center;
+}
+.titlep2 {
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 .texto-f{
@@ -66,14 +88,16 @@ footer{
 .h2-navegacao{
     color: white;
     font-size: 16;
+    padding: 15px;
     margin-right: 3%;
 }
 .h2-navegacao:hover{
-    color: rgb(155, 25, 25);
+    color: rgb(4, 4, 4);
     font-size: 16;
-    margin-right: 3%;
     transition: 0.5s;
     opacity: 0.7;
+    background-color: rgb(246, 241, 241);
+    margin-right: 1%;
 }
 h1 {
     font-size: 20;
@@ -86,4 +110,56 @@ h3 {
 }
 p {
     font-size: 16px;
+}
+.active {
+    background-color: rgb(102, 100, 104);
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(129, 124, 124, 0.592);
+    height: 250px;
+    width: 200px;
+    padding: 5%;
+    margin-left: 3%;
+    border: 10px rgba(129, 124, 124, 0.592);
+    border-radius: 10px;
+    filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.384));
+}
+.card-cam {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(89, 17, 17);
+    height: 300px;
+    width: 200px;
+    padding: 5%;
+    margin-left: 3%;
+    border: 10px rgb(89, 17, 17);
+    border-radius: 10px;
+    filter: drop-shadow(6px 6px 6px black)
+}
+.div-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.h2-elenco {
+    margin-bottom: 3%;
+    margin-left: 1%;
+    font-size: 24;
+    font-weight: bold;
+}
+.imagem-c {
+    height: 220px;
+    width: auto;
+}
+.nomes {
+    background-color: black;
+    border: 3px rgba(129, 124, 124, 0.592);
+    border-radius: 10px;
+}
+.nomes-til {
+    background-color: rgb(247, 242, 242);
+    border: 3px rgba(255, 255, 255, 0.592);
+    border-radius: 10px;
 }
