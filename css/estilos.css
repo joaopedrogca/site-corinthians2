@@ -1,5 +1,10 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway';
 
+@font-face {
+    font-family: Corinthians;
+    src: url(../fonts/FONT-CORINTHIANS-2023.otf);
+}
+/*              GERAL                 */
 a{
     text-decoration: none;
 }
@@ -16,6 +21,9 @@ footer{
     bottom: 0;
     width: 100%;
     text-align: justify;
+}
+.titulonum{
+    font-family: Corinthians;
 }
 .f1{
     display: flex;
@@ -72,11 +80,12 @@ footer{
     font-size: 45px;
 }
 .titlep1 {
+    font-size: 100%;
     color: white;
     text-align: center;
 }
 .titlep2 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 254, 254);
     text-align: center;
 }
 .texto-f{
@@ -117,31 +126,32 @@ p {
 .card {
     display: flex;
     flex-direction: column;
-    background-color: rgba(129, 124, 124, 0.592);
-    height: 250px;
-    width: 200px;
+    background-color: rgba(244, 240, 240, 0.751);
+    height: 50%;
+    width: 50%;
     padding: 5%;
     margin-left: 3%;
-    border: 10px rgba(129, 124, 124, 0.592);
+    border: 10px rgba(244, 240, 240, 0.751);
     border-radius: 10px;
-    filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.384));
+    filter: drop-shadow(3px 3px 3px black);
+    transition: 0.5s;
 }
 .card-cam {
     display: flex;
     flex-direction: column;
-    background-color: rgb(89, 17, 17);
+    background-color: rgb(228, 217, 217);
     height: 300px;
     width: 200px;
     padding: 5%;
     margin-left: 3%;
-    border: 10px rgb(89, 17, 17);
+    border: 10px rgb(222, 216, 216);
     border-radius: 10px;
-    filter: drop-shadow(6px 6px 6px black)
 }
 .div-card {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
 }
 .h2-elenco {
     margin-bottom: 3%;
@@ -150,8 +160,8 @@ p {
     font-weight: bold;
 }
 .imagem-c {
-    height: 220px;
-    width: auto;
+    height: 100%;
+    width: 100%;
 }
 .nomes {
     background-color: black;
@@ -159,7 +169,37 @@ p {
     border-radius: 10px;
 }
 .nomes-til {
-    background-color: rgb(247, 242, 242);
+    background-color: rgb(0, 0, 0);
     border: 3px rgba(255, 255, 255, 0.592);
     border-radius: 10px;
 }
+.numero {
+    font-size: 34px;
+    position: fixed;
+    top: 10;
+    font-family: Corinthians;
+    color: black;
+}
+.imagem-hist {
+    width: 250;
+    height: 210;
+}
+.tabela1{
+    width: 100%;
+    border: 2PX solid black;
+    border-radius: 10px;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+.tabela1 th, .tabela1 td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+.tabela1 tr:nth-child(even){
+    background-color: gainsboro;
+}
+.tabela1 tr:hover {
+    background-color: rgba(10, 181, 228, 0.281);
+}
+
