@@ -1,0 +1,157 @@
+@font-face {
+    font-family: Aileron;
+    src: url(../fonts/Ailerons-Typeface.otf);
+}
+.content-idols
+{
+    width: 100%;
+    height: 65%;
+    background-image: 
+        linear-gradient( to right, rgb(0, 0, 0) 15%, rgba(245, 244, 244, 0)), 
+        url(../img/Romero2.jpg); 
+    background-size: 100%;
+    background-position: center;
+    text-align: justify;
+    margin-top: 0;
+    display: flex;
+}
+.imagem-idols{
+    position: absolute;
+}
+.div1-idols {
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+ }
+.text-idols{
+    display: flex;
+    font-family: Raleway;
+    font-size: 20;
+    width: 40%;
+    color: white;
+    overflow: hidden; /* oculta o texto que ultrapassar o tamanho da div */
+    text-overflow: ellipsis;
+    word-break: break-all;
+    transition: 0.5;
+}
+
+.div-buttons{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 25%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+}
+.center-cards{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 12%;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    background-color: rgba(100, 17, 177, 0);
+    width: 90%;
+    height: 60%;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin: none;
+    overflow: hidden;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.781));
+    margin-left: 4px;
+    padding: 4px;
+}
+.cards:hover {
+    color: white;
+    transition: 0.3s;
+    margin-bottom: 20%;
+    filter: drop-shadow(0px 15px 15px rgba(111, 111, 111, 0.781));
+  }
+.active2 {
+    border: 3px solid black;
+    border-color: darkred;
+    border-radius: 25px;
+    margin: 20px;
+    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.781));
+    
+}
+.inactive {
+    opacity: 0.6;
+}
+.cards img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    
+}
+
+.titulo-idolos{
+    font-size: 60;
+    font-family: Aileron;
+    color: white;
+    transition: 0.5;
+    
+}
+.div-gols{
+    height: 20%;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: 0.5;
+}
+.gols{
+    height: 90%;
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    margin-right: 3%;
+    transition: 0.5;
+}
+
+/* VARIAÇÕES DE IMAGENS */
+
+.romero, .ronaldo, .chicao, .cassio
+{
+    width: 100%;
+    height: 65%;
+    background-size: contain;
+    background-position: center;
+    text-align: justify;
+    margin-top: 0;
+    display: flex;
+    transition: 1;
+}
+.romero
+{
+    background-image: 
+        linear-gradient( to right, rgb(0, 0, 0) 15%, rgba(245, 244, 244, 0)), 
+        url(../img/Romero2.jpg); 
+}
+.ronaldo
+{
+    background-image: 
+        linear-gradient( to right, rgb(0, 0, 0) 15%, rgba(245, 244, 244, 0)), 
+        url(../img/ronaldowalp2.jpg); 
+}
+.chicao
+{
+    background-image: 
+        linear-gradient( to right, rgb(0, 0, 0) 15%, rgba(245, 244, 244, 0)), 
+        url(../img/chicão.jpg); 
+}
+.cassio
+{
+    background-image: 
+        linear-gradient( to right, rgb(0, 0, 0) 15%, rgba(245, 244, 244, 0)), 
+        url(../img/cassio2.jpg); 
+}
+
+
