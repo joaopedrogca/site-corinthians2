@@ -35,6 +35,7 @@ footer{
     text-align: justify;
 }
 .logoof{
+    justify-content: center;
     width: 5%;
     height: auto;
     margin-right: 5%;
@@ -71,13 +72,14 @@ footer{
 .title-div {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-self: left;
-    align-items: start;
     justify-content: left;
 
 }
 .nav{
     justify-content: center;
+    align-items: center;
     display: flex;
     flex-direction: row;
     background-color: rgb(28, 27, 29);
@@ -106,9 +108,11 @@ footer{
     font-weight: bold;
 }
 .titlep1 {
-    font-size: 100%;
-    color: white;
+    font-size: 20;
+    color: rgb(239, 172, 3);
     text-align: center;
+    font-family: LemonMilk;
+    margin: 5%;
 }
 .titlep2 {
     color: rgb(255, 254, 254);
@@ -123,7 +127,7 @@ footer{
 .h2-navegacao{
     color: white;
     font-size: 20;
-    padding: 15px;
+    padding: 1%;
     margin-right: 3%;
     font-family: LemonMilk R;
     font-weight: bold;
@@ -154,12 +158,9 @@ p {
 .card {
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.397);
-    height: 50%;
-    width: 50%;
-    padding: 5%;
-    margin-left: 3%;
-    border: 10px rgba(244, 240, 240, 0.751);
+    background: linear-gradient(#620101, #0f0f0f);;
+    padding: 2%;
+    margin: 1%;
     border-radius: 10px;
     filter: drop-shadow(3px 3px 3px black);
     transition: 0.5s;
@@ -186,14 +187,14 @@ p {
     margin-left: 1%;
     font-size: 24;
     font-weight: bold;
+    font-family: LemonMilk;
 }
 .imagem-c {
     height: 100%;
     width: 100%;
 }
 .nomes {
-    background-color: black;
-    border: 3px rgba(129, 124, 124, 0.592);
+    background-color: rgb(251, 251, 251);
     border-radius: 10px;
 }
 .nomes-til {

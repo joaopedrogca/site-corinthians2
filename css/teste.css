@@ -9,8 +9,8 @@
     background-image: 
         linear-gradient( to right, rgb(0, 0, 0) 15%, rgba(245, 244, 244, 0)), 
         url(../img/Romero2.jpg); 
-    background-size: 100%;
     background-position: center;
+    background-size: cover;
     text-align: justify;
     margin-top: 0;
     display: flex;
@@ -28,7 +28,7 @@
 .text-idols{
     display: flex;
     font-family: Raleway;
-    font-size: 20;
+    font-size: 2em;
     width: 40%;
     color: white;
     overflow: hidden; /* oculta o texto que ultrapassar o tamanho da div */
